@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+# Weather Now
+
+A simple weather application built with React that allows users to fetch current weather information by city.
+
+## Features
+- Input city name to fetch weather data
+- Displays temperature, humidity, and wind speed
+- Basic error handling
+
+## Getting Started
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-username/weather-now.git
+
