@@ -19,9 +19,9 @@ function Weather() {
       }
 
       // Step 1: Get latitude and longitude for the city
-      const geoResponse = await fetch(
-        `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`
-      );
+    const geoResponse = await fetch(
+      `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`
+    );
 
       if (!geoResponse.ok) {
         throw new Error('City not found');
