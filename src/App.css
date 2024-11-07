@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* src/App.css */
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 20px; */
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
