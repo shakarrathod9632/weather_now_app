@@ -20,7 +20,7 @@ function Weather() {
 
       // Step 1: Get latitude and longitude for the city
     const geoResponse = await fetch(
-      `https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`
+      `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=${apiKey}`
     );
 
       if (!geoResponse.ok) {
@@ -37,7 +37,7 @@ function Weather() {
 
       // Step 2: Use latitude and longitude to get detailed weather data
       const weatherResponse = await fetch(
-        `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`
+        `https://cors-anywhere.herokuapp.com/https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`
       );
 
       if (!weatherResponse.ok) {
